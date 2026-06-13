@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Competition data and large artifacts
+audio_final/
+individual-test-thai-call-center-asr.zip
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Colab / experiment outputs
+work/
+checkpoints/
+submissions/
+reports/
+outputs/
+*.csv
+!sample_submission_placeholder.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
